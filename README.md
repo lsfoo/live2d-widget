@@ -39,7 +39,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
 
 将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lsfoo/live2d-widget@latest/autoload.js"></script>
 ```
 如果网站启用了 PJAX，由于看板娘不必每页刷新，因此要注意将相关脚本放到 PJAX 刷新区域之外。
 
@@ -67,7 +67,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
   ```bash
   cd /path/to/your/webroot
   # Clone this repository
-  git clone https://github.com/stevenjoezhang/live2d-widget.git
+  git clone https://github.com/lsfoo/live2d-widget.git
   ```
 - 如果你的主机无法用 `ssh` 连接（例如一般的虚拟主机），请选择 `Download ZIP`，然后通过 `ftp` 等方式上传到主机上，再解压到网站的目录下。
 - 如果你是通过 Hexo 等工具部署的静态博客，请在本地的博客目录中（例如 `source` 下与 `_posts` 同级的目录），执行前述的 `git clone` 命令。重新部署博客时，相关文件就会自动上传到对应的路径下。为了避免这些文件被 Hexo 插件错误地修改，可能需要设置 `skip_render`。
